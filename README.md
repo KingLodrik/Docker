@@ -1,1 +1,25 @@
 # Docker
+
+Docker Command 
+   1) docker info - check information of version
+   2) docker images - to see images
+   3) docker run -it ubuntu bin/bash - creat contarners
+   4) docker ps - will show containers runing now
+   5) docker ps -a - will show you containers history
+   6) docker run -it -d ubuntu /bin/bash - when you use  -d even you exit container will run
+   7) docker exec -it 000011112222 /bin/bash - to open right container 
+   8) docker rm -f 000111222 - delete
+   9) docker stop 000111222- to stop contianer runing
+   10) docker run -it -d -p 9090:8080 tomcat - to run tomcat
+   
+   
+   
+
+   
+
+   
+
+  
+   
+    
+    
