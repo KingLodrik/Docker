@@ -1,0 +1,5 @@
+ sudo yum install docker -y 
+  docker --version
+  docker infor
+  sudo systemctl start docker
+  sudo usermod -a -G docker ec2-user
