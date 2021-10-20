@@ -3,3 +3,8 @@ docker run < image Name>   (to get docker images)
 docker ps (see a running container)
 docker run busybox echo hi (more extra command)
 docker ps --all (to see all the runing images)
+
+docker system prune ( this will delete every container)
+docker create <busybox> ping google.com (ping command for container)
+docker stop <container ID> ( to stop container/ this take 10second to stop) 
+docker kill <container ID> ( to stop container)  
