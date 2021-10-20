@@ -7,4 +7,10 @@ docker ps --all (to see all the runing images)
 docker system prune ( this will delete every container)
 docker create <busybox> ping google.com (ping command for container)
 docker stop <container ID> ( to stop container/ this take 10second to stop) 
-docker kill <container ID> ( to stop container)  
+docker kill <container ID> ( to stop container)
+  
+docker exec -it <container ID> redis-cli (run redis cli)
+            (exec comand help to run inside contianer cli)
+            ( -it help to type sometimg inside the cointaner)
+docker exec -it <container ID> sh (using sh)  
+  
