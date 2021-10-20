@@ -1,0 +1,5 @@
+# Docker version ( to check version)
+docker run < image Name>   (to get docker images)
+docker ps (see a running container)
+docker run busybox echo hi (more extra command)
+docker ps --all (to see all the runing images)
