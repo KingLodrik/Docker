@@ -1,0 +1,9 @@
+ sudo docker images
+ sudo docker images --help
+ sudo docker pull redis
+ sudo docker images -q
+ sudo docker images -f
+ sudo docker images -f "dangling=false"
+ sudo docker images -f "dangling=true"
+ sudo docker ps -q
+  
