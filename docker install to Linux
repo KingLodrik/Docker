@@ -3,3 +3,16 @@
   docker infor
   sudo systemctl start docker
   sudo usermod -a -G docker ec2-user
+  
+  
+  References:
+
+Linux free instance - https://aws.amazon.com/free/
+
+Docker Manuals - https://docs.docker.com/manuals/
+
+https://get.docker.com/
+
+https://docs.docker.com/engine/install/binaries/
+
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
